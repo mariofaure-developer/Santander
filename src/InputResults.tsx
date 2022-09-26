@@ -46,8 +46,8 @@ export default function InputResults({
 const styles = StyleSheet.create({
   text: {
     fontFamily: 'textRegular',
-    fontSize: 18,
-    color: '#ED0000',
+    fontSize: 14,
+    color: 'black',
   },
   inputText: {
     fontFamily: 'textBold',

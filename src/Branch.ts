@@ -39,7 +39,7 @@ export type ServiceAndFacilityType =
   | 'VideoBanking'
   | 'WiFi';
 
-type AccessibilityType =
+export type AccessibilityType =
   | 'AutomaticDoors'
   | 'AudioCashMachine'
   | 'ExternalRamp'
@@ -125,7 +125,8 @@ export type Branch = {
       GeographicCoordinates: {
         Latitude: string;
         Longitude: string;
-      };
+      },
+      Distance?: number;
     };
   };
 };

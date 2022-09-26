@@ -44,7 +44,7 @@ export default function BranchesInput({
 
 const styles = StyleSheet.create({
   container: {
-    marginTop: 80,
+    marginTop: 20,
     marginHorizontal: 20,
   },
   result: {
@@ -60,5 +60,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 8,
     color: 'black',
     marginBottom: 10,
+    borderWidth:1,
+    borderColor:'gainsboro'
   },
 });
